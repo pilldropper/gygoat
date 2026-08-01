@@ -7,9 +7,9 @@ import ControlPanel from "./components/ControlPanel";
 function App() {
 
   return (
-    <main className="container">
-      <Header />
-      <h1>Download Now</h1>
+    <main>
+      <Header/>
+      <h1 className="text-2xl flex justify-center font-bold m-20">Download Now</h1>
       <InputBar />
       <ControlPanel />
     </main>
